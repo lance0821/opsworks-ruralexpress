@@ -14,7 +14,7 @@ DEPENDENCIES
   ohai
   pelias
     git: https://github.com/lance0821/chef-mapzen_pelias.git
-    revision: 84075e56c6ca33b0e4acc5f9cbfca8b9949d1a2c
+    revision: 243d552f49030473b189811216f59eb7a5c0d1f4
   python (= 1.3.6)
   runit (= 1.5.10)
   sensu (= 2.10.0)
