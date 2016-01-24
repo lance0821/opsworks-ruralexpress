@@ -15,8 +15,10 @@ cookbook 'chef_handler',  '= 1.1.6'
 
 # mapzen wrappers
 #
-cookbook 'mapzen_sensu_clients',  git: 'git@github.com:mapzen/chef-mapzen_sensu_clients', tag: '0.12.0'
-cookbook 'mapzen_elasticsearch',  git: 'git@github.com:mapzen/chef-mapzen_elasticsearch', tag: '0.16.3'
-cookbook 'mapzen_logstash',       git: 'git@github.com:mapzen/chef-mapzen_logstash',      tag: '0.13.1'
-cookbook 'mapzen_graphite',       git: 'git@github.com:mapzen/chef-mapzen_graphite',      tag: '0.6.0'
-cookbook 'mapzen_pelias',         git: 'git@github.com:mapzen/chef-mapzen_pelias',        tag: '0.34.2'
+#cookbook 'mapzen_sensu_clients',  git: 'git@github.com:mapzen/chef-mapzen_sensu_clients', tag: '0.12.0'
+#cookbook 'mapzen_elasticsearch',  git: 'git@github.com:mapzen/chef-mapzen_elasticsearch', tag: '0.16.3'
+#cookbook 'mapzen_logstash',       git: 'git@github.com:mapzen/chef-mapzen_logstash',      tag: '0.13.1'
+#cookbook 'mapzen_graphite',       git: 'git@github.com:mapzen/chef-mapzen_graphite',      tag: '0.6.0'
+#cookbook 'mapzen_pelias',         git: 'git@github.com:mapzen/chef-mapzen_pelias',        tag: '0.34.2'
+
+cookbook  'pelias',                git: 'https://github.com/lance0821/chef-mapzen_pelias.git'
