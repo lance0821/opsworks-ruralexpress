@@ -9,9 +9,14 @@ cookbook 'lvm',           '= 1.0.8'
 cookbook 'sensu',         '= 2.10.0'
 cookbook 'runit',         '= 1.5.10'
 cookbook 'java',          '= 1.29.0'
-cookbook 'nodejs',        '= 2.1.0'
+cookbook 'nodejs'        
 cookbook 'elasticsearch', '= 0.3.13'
 cookbook 'chef_handler',  '= 1.1.6'
+cookbook 'apt'
+cookbook 'git'
+cookbook 'ohai'
+cookbook 'user'
+cookbook 'python', '= 1.3.6'
 
 # mapzen wrappers
 #
@@ -22,3 +27,4 @@ cookbook 'chef_handler',  '= 1.1.6'
 #cookbook 'mapzen_pelias',         git: 'git@github.com:mapzen/chef-mapzen_pelias',        tag: '0.34.2'
 
 cookbook  'pelias',                git: 'https://github.com/lance0821/chef-mapzen_pelias.git'
+cookbook  'tilequeue',			   git: 'https://github.com/mapzen/chef-tilequeue.git'
