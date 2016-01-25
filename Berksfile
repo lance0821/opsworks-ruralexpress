@@ -2,21 +2,22 @@ source 'https://api.berkshelf.com'
 
 # opsworks
 cookbook 'apache2' , github: 'aws/opsworks-cookbooks' , branch: 'release-chef-11.10' , rel: 'apache2'
-
+#cookbook 'opsworks_nodejs', github: 'aws/opsworks-cookbooks' , branch: 'release-chef-11.10', rel: 'opsworks_nodejs'
 # external
 #
-cookbook 'lvm',           '= 1.0.8'
-cookbook 'sensu',         '= 2.10.0'
-cookbook 'runit',         '= 1.5.10'
-cookbook 'java',          '= 1.29.0'
-cookbook 'nodejs',        '= 2.4.4'
-cookbook 'elasticsearch', '= 0.3.13'
-cookbook 'chef_handler',  '= 1.1.6'
-cookbook 'apt'
-cookbook 'git'
-cookbook 'ohai'
-cookbook 'user'
-cookbook 'python', '= 1.3.6'
+#cookbook  'lvm',           '= 1.0.8'
+#cookbook  'sensu',         '= 2.10.0'
+#cookbook  'runit',         '= 1.5.10'
+#cookbook  'java',          '= 1.29.0'
+#cookbook  'nodejs',        '= 2.4.4'
+#cookbook  'nodejs-setup',  '= 0.1.5''
+#cookbook  'elasticsearch', '= 0.3.13'
+#cookbook  'chef_handler',  '= 1.1.6'
+#cookbook  'apt'
+#cookbook  'git'
+#cookbook  'ohai'
+#cookbook  'user'
+#cookbook  'python', '= 1.3.6'
 
 # mapzen wrappers
 #
