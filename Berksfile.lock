@@ -10,7 +10,7 @@ DEPENDENCIES
   git
   java (= 1.29.0)
   lvm (= 1.0.8)
-  nodejs
+  nodejs (= 2.4.4)
   ohai
   pelias
     git: https://github.com/lance0821/chef-mapzen_pelias.git
