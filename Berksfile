@@ -27,5 +27,5 @@ cookbook 'apache2' , github: 'aws/opsworks-cookbooks' , branch: 'release-chef-11
 #cookbook 'mapzen_graphite',       git: 'git@github.com:mapzen/chef-mapzen_graphite',      tag: '0.6.0'
 #cookbook 'mapzen_pelias',         git: 'git@github.com:mapzen/chef-mapzen_pelias',        tag: '0.34.2'
 
-cookbook  'pelias',                git: 'https://github.com/lance0821/chef-mapzen_pelias.git'
-cookbook  'tilequeue',			   git: 'https://github.com/mapzen/chef-tilequeue.git'
+cookbook  'datastax',                git: 'https://github.com/lance0821/chef-mapzen_pelias.git'
+#cookbook  'tilequeue',			   git: 'https://github.com/mapzen/chef-tilequeue.git'
