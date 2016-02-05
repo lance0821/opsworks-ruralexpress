@@ -1,15 +1,12 @@
 DEPENDENCIES
   apache2
     git: git://github.com/aws/opsworks-cookbooks.git
-    revision: 36a916a1d1a4c119f9cc7a1c579c68144c2651a9
+    revision: ae6b7ffab7b25a55cbd84a236d4bccfb1cf85696
     branch: release-chef-11.10
     rel: apache2
-  pelias
-    git: https://github.com/lance0821/chef-mapzen_pelias.git
-    revision: 243d552f49030473b189811216f59eb7a5c0d1f4
-  tilequeue
-    git: https://github.com/mapzen/chef-tilequeue.git
-    revision: d9b6890ba8d53ceb7af43fe7f0432ac9f7521470
+  cassandra-dse
+    git: git://github.com/wsh/cassandra-chef-cookbook.git
+    revision: 0a0c50244b9b12653660a3320fde2159595fb38d
 
 GRAPH
   7-zip (1.0.2)
@@ -19,52 +16,16 @@ GRAPH
   ark (0.9.0)
     7-zip (>= 0.0.0)
     windows (>= 0.0.0)
-  build-essential (2.2.4)
-  chef-sugar (3.3.0)
-  chef_handler (1.2.0)
-  dmg (2.3.0)
-  elasticsearch (2.1.1)
+  cassandra-dse (4.2.0)
     apt (>= 0.0.0)
     ark (>= 0.0.0)
-    chef-sugar (>= 0.0.0)
+    java (>= 0.0.0)
+    ulimit (>= 0.0.0)
     yum (>= 0.0.0)
-  git (4.3.5)
-    build-essential (>= 0.0.0)
-    dmg (>= 0.0.0)
-    windows (>= 0.0.0)
-    yum-epel (>= 0.0.0)
-  homebrew (2.0.4)
-    build-essential (>= 2.1.2)
+  chef_handler (1.2.0)
   java (1.39.0)
     apt (>= 0.0.0)
-  nodejs (2.4.4)
-    apt (>= 0.0.0)
-    ark (>= 0.0.0)
-    build-essential (>= 0.0.0)
-    homebrew (>= 0.0.0)
-    yum-epel (>= 0.0.0)
-  packagecloud (0.1.1)
-  pelias (0.6.0)
-    apt (>= 0.0.0)
-    elasticsearch (>= 0.0.0)
-    java (>= 0.0.0)
-    nodejs (>= 0.0.0)
-    runit (>= 0.0.0)
-    user (>= 0.0.0)
-  python (1.4.6)
-    build-essential (>= 0.0.0)
-    yum-epel (>= 0.0.0)
-  runit (1.7.6)
-    packagecloud (>= 0.0.0)
-  tilequeue (0.2.1)
-    apt (>= 0.0.0)
-    git (>= 0.0.0)
-    python (>= 0.0.0)
-    runit (>= 0.0.0)
-    user (>= 0.0.0)
-  user (0.4.2)
+  ulimit (0.3.3)
   windows (1.39.1)
     chef_handler (>= 0.0.0)
-  yum (3.9.0)
-  yum-epel (0.6.5)
-    yum (~> 3.2)
+  yum (3.10.0)
